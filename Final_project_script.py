@@ -45,7 +45,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Read csv files
-df_electricity = pd.read_csv('Electricity_consumption_price.csv')
+df_electricity = pd.read_csv('https://raw.githubusercontent.com/nebiatibssa/DA_Final_Project/refs/heads/main/Electricity_consumption_price.csv')
 
 st.title(':bulb: :orange[Electricity Consumption Dashboard] :bulb:')
 
